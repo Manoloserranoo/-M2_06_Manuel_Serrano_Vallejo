@@ -1,6 +1,6 @@
 #Definimos la función lee_numero que almacena la acción de pedir un número,y la utilizamos para conseguir los tres números que nos piden,finalmente definimos la función mayor la cual compara estos numeros y luego imprimimos la función.
 def lee_numero():
-  num=(input("Digame un número:"))
+  num=(int(input("Digame un número:")))
  
   return num
 
